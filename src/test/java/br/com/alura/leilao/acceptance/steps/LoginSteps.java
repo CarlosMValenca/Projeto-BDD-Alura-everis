@@ -47,7 +47,7 @@ public class LoginSteps {
 	
 	@Entao("continua na página de login")
 	public void continua_na_página_de_login() {
-		Assert.assertFalse(this.leiloesPage.estaNaPaginaDeLeiloes());
+		Assert.assertTrue(this.loginPage.estaNaPaginaDeLoginComErro());
 	}
 
 
